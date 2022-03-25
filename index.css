@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Press+Start+2P&display=swap');
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+}
+
+.title, #question, #answer {
+    text-align: center;
+}
+
+#question, #answer, #keyboard {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.life {
+    float: right;
+}
+
+#man {
+    display: block;
+    margin: 0 auto;
+}
+
+#question {
+    font-size: 20px;
+}
+
+#answer {
+    font-size: 15px;
+}
+
+#keyboard {
+    text-align: center;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(47, 65, 64);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+button:hover{
+     background-color: mediumpurple;
+}

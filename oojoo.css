@@ -1,0 +1,56 @@
+body{
+   
+    background-image: url('forest-cemetery-pumpkin-horror-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: gray;
+} 
+h1 {
+   font-family:Baskerville;
+   text-align: center;
+   margin-top: 130px;
+}
+.ner{
+   width: 350px;
+   text-align: center;
+   margin: 15px auto;
+   padding: 20px;
+}
+.ner a {
+   width: 50px;
+   height: 40px;
+   line-height: 25px;
+   font-size: 1.5em;
+   border: 2px solid black;
+
+   color: black;
+   text-decoration: none;
+   text-align: center;
+   margin: 5px;
+   padding-top: 5px;
+ }
+ .play {
+      text-align: center;
+       border-radius: 0px;
+       margin-top: 50px;   
+ }
+ .play button {
+      width: 180px;
+      height: 50px;
+      background-color: darkslategrey;
+      font-size: 20px;
+      color: white;
+ }
+ .how button{
+   width: 180px;
+   height: 50px;
+   background-color: darkslategrey;
+   font-size: 20px;
+   color: white;
+   margin-top: 50px;
+   text-align: center;
+}
+.how {
+    text-align: center;
+}
